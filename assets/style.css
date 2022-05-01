@@ -1,0 +1,357 @@
+  *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+.container{
+    padding: 0 80px;
+    margin: auto;
+}
+.navbar{
+    width: 100%;
+    z-index: 999;
+    padding: 30px 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: darkslategrey;
+}
+.navbar .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar #moringa{
+    font-size: 39px;
+    font-weight: 600;
+}
+.navbar #moringa span{
+    color: #EC4067;
+}
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 500px;
+    margin-left: 25px;
+}
+.menu-btn{
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    background-color: #EC4067;
+    border: none;
+    padding: 8px;
+    border-radius: 5px;
+}
+.menu-btn:hover{
+    color: black;
+    background-color: azure;
+}
+.vision{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    justify-content: space-between;
+}
+.left{
+    text-align: left;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 30px;
+    width: 100%;
+}
+img{
+    width: 600px;
+    height: auto;
+}
+
+.left .title{
+    font-weight: 200;
+    margin: 20px;
+    font-size: 28px;
+}
+h1{
+    margin: 20px;
+    font-size: 28px;
+}
+.left .about{
+    color: #EC4067;
+    margin: 20px;
+}
+
+.left p{
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+button{
+    margin: 20px 20px 0 20px;
+}
+.left .enroll{
+    background-color: #EC4067;
+    color: white;
+    border: 2px solid #EC4067;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 12px 36px;
+    
+}
+.enroll:hover{
+    color: #EC4067;
+    background: none;
+}
+.vision .explore{
+    background: none;
+    color: #EC4067;
+    border: 2px solid #EC4067;
+    border-radius: 5px;
+    font-size: 25px;
+    padding: 12px 36px;
+    
+}
+.explore:hover{
+    background-color: #EC4067;
+    color: white; 
+}
+p{ 
+    margin-left: 70px;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 300;
+}
+p .story{
+    background-color: rgba(128, 128, 128, 0.2);
+}
+
+.orientation{
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    justify-content: space-between;
+    
+}
+.orientation .right{
+    margin: 30px;
+    font-size: 25px;
+    justify-content: center;
+    align-items: center;
+    
+}
+.orientation h3{
+    margin: 50px;
+}
+
+.orientation p{
+    margin: 50px;
+}
+.orientation .album{
+    background-color: #EC4067;
+    color: white;
+    border: 2px solid #EC4067;
+    border-radius: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    padding: 12px 36px;
+    margin: 50px;
+}
+.album:hover{
+    color: #EC4067;
+    background: none;
+}
+.orientation .left img{
+    height: auto;
+    width: 600px;
+}
+/* tms */
+.TM{
+    background-color: aliceblue;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 50px;
+    justify-content: space-between;
+    
+}
+.tm1{
+    margin: 30px;
+}
+.tm1 #details{
+    text-align: left;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+#details h3{
+    margin-left: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.tm1 img{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+
+.tm1 h4{
+    color: #EC4067;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+.tm1 p{
+    width: 100%;
+    margin: 20px;
+}
+.tm1 button{
+    background-color: #EC4067;
+    color: white;
+    border: 2px solid #EC4067;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 12px;
+    margin: 20px;
+    width: 60%;
+
+}
+.tm2{
+    margin: 30px;
+}
+.tm2 #details{
+    text-align: left;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tm2 img{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+.tm2 h4{
+    color: #EC4067;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+.tm2 p{
+    width: 100%;
+    margin: 20px;
+}
+.tm2 button{
+    background-color: #EC4067;
+    color: white;
+    border: 2px solid #EC4067;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 12px;
+    margin: 20px;
+    width: 60%;
+}
+
+.tm3{
+    margin: 30px;
+}
+.tm3 #details{
+    text-align: left;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tm3 img{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+.tm3 h4{
+    color: #EC4067;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+.tm3 p{
+    width: 100%;
+    margin: 20px;
+}
+.tm3 button{
+    background-color: #EC4067;
+    color: white;
+    border: 2px solid #EC4067;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 12px;
+    margin: 20px;
+    width: 60%;
+}
+
+
+.tm4{
+    margin: 30px;
+}
+.tm4 #details{
+    text-align: left;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.tm4 img{
+    height: 250px;
+    width: 250px;
+    margin: 20px;
+}
+.tm4 h4{
+    color: #EC4067;
+    font-size: 20px;
+    margin: 20px;
+    
+}
+.tm4 p{
+    width: 100%;
+    margin: 20px;
+}
+.tm4 button{
+    background-color: #EC4067;
+    color: white;
+    border: 2px solid #EC4067;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 12px;
+    margin: 20px;
+    width: 60%;
+}
+.footnote{
+    margin: 20px;
+}
+.footnote h2{
+    color: #EC4067;
+    font-size: 28px;
+    margin: 30px;
+}
+
+.footnote p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+}
+.footnote p span{
+    background-color: #EC4067;
+    color: white;
+    font-size: 18px;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.foot{
+    height: 100px;
+    background-color: rgba(128, 128, 128, 0.2);
+    text-align: center;
+    font-size: 32px;
+}
+.foot footer{
+    padding: 20px;
+}
+
